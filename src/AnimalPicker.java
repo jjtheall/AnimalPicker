@@ -18,11 +18,11 @@ public class AnimalPicker {
             switch(userAnimal){
                 case "dog":
                     invalid = false;
-                    System.out.println("DOG ASCII ART");
+                    System.out.println("   / \\__\n  (    @\\___\n  /         O\n /   (_____/\n/_____/   U");
                     break;
                 case "cat":
                     invalid = false;
-                    System.out.println("CAT ASCII ART");
+                    System.out.println(" /\\_/\\\n( o o )\n==_Y_==\n  \\-/");
                     break;
                 default:
                     invalid = true;
