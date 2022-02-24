@@ -18,5 +18,8 @@ public class AnimalPicker {
         else if(userAnimal.equals("dog")){
             System.out.println("DOG ASCII ART");
         }
+        else{
+            System.out.println("Error: invalid input");
+        }
     }
 }
