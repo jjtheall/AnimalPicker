@@ -12,7 +12,7 @@ public class AnimalPicker {
         boolean invalid = false;
 
         do{
-            System.out.println("Which animal would you like to see: dog or cat?");
+            System.out.println("Which animal would you like to see: dog, cat, or fish?");
             String userAnimal = sc.nextLine().toLowerCase();
 
             switch(userAnimal){
@@ -23,6 +23,11 @@ public class AnimalPicker {
                 case "cat":
                     invalid = false;
                     System.out.println(" /\\_/\\\n( o o )\n==_Y_==\n  \\-/");
+                    break;
+                case "fish":
+                    invalid = false;
+                    System.out.println("      /`·.¸\n     /¸...¸`:·\n ¸.·´  ¸   `·.¸.·´)\n: © ):´;      ¸  " +
+                            "{\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´\n");
                     break;
                 default:
                     invalid = true;
